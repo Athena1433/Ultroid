@@ -23,4 +23,4 @@ COPY installer.sh .
 RUN bash installer.sh
 COPY . .
 
-CMD["bash, "startup"]
+CMD["bash", "startup"]
